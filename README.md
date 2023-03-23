@@ -1,2 +1,2 @@
-## Seal Active
-# Used Technologies : HTML, CSS, React.js
+# Seal Active
+## Used Technologies : HTML, CSS, React.js
