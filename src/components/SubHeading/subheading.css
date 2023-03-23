@@ -1,0 +1,10 @@
+.app__subheading-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.app__subheading-container img{
+    width: 50px;
+    margin: 0 0.5rem;
+}

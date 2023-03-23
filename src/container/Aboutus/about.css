@@ -1,0 +1,25 @@
+.app__about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app__wrapper_info-content{
+    align-items: flex-start;
+    /* text-align: center; */
+}
+
+.app__wrapper_info-content .app__para{
+    margin-bottom: 1rem;
+}
+
+.app__about_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__about_buttons Button{
+    margin-right: 1rem;
+}

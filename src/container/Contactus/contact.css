@@ -1,0 +1,111 @@
+
+.app__contactus_address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.app__contactus_address-left{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+
+.app__contactus_address-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.app__conatctus_address-right{
+    background-color: var(--color-black);
+    flex: 2;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+.app__conatctus_address-right_form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.app__conatctus_address-right_form input , textarea{
+    min-width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: 2px solid var(--color-textOne);
+    border-radius: 5px;
+    /* font-size: 13px; */
+}
+
+.app__conatctus_address-right_form Button{
+    border-radius: 5px;
+}
+
+
+
+/* ****************** Footer ***************  */
+.app__contactus_footer{
+    background-color: var(--color-textOne);
+}
+
+.app__contactus_footer-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.app__contactus_footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 40%;
+    margin: 1.5rem auto;
+}
+
+.app__allrights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* Media Queries  */
+@media screen and (max-width : 1150px){
+    .app__contactus_address{
+        flex-direction: column;
+    }
+
+    .app__conatctus_address-right{
+        position: unset;
+    }
+
+
+    .app__contactus_footer-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app__contactus_footer-content_item{
+        text-align: center;
+    }
+    .app__allrights p{
+        display: inline;
+        text-align: center;
+    }
+}
